@@ -32,7 +32,7 @@ include __DIR__."/modules/checker/sm.php";
 if(strpos($message, "/start") === 0){
 if(!isBanned($userId) && !isMuted($userId)){
 
-  if($userId == $config['adminID']){
+  if($userId == $config['6370066138']){
     $messagesec = "<b>Type /admin to know admin commands</b>";
   }
 
